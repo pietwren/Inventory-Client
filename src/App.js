@@ -1,9 +1,10 @@
-
+import Asset from './components/Asset/Asset'
+import AssetContainer from './components/AssetContainer/AssetContainer';
 
 function App() {
   return (
     <div className="App">
-      <h1>Working</h1>
+      <AssetContainer />
     </div>
   );
 }
